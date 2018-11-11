@@ -24,3 +24,11 @@ rustc libcalc.rs --crate-type="dylib"
 ```
 gcc main.c -o main.exe libcalc.dll
 ```
+
+## Expected output
+
+```
+λ .\main
+Calculating from rust...
+Result: 15
+```
